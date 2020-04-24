@@ -1,0 +1,30 @@
+* {
+	margin: 0em;
+	padding: 0em;
+	background-color: #333333;
+	color:#ccc;
+}
+a, a.link, a:hover, a:visited, a.active {
+	text-decoration: none;
+}
+body{
+	margin: 0px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-transform: capitalize;
+}
+table{
+	width: 95%;
+	max-width: 960px;
+	overflow: hidden;
+}
+table td{
+	width:auto;
+	max-width: 200px;
+	border: 0.5px solid #cfcfcf;
+}
+table td ul li{
+	list-style-type: none;
+}
+ul>li>p>span{
+	float: right;
+}
