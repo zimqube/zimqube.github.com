@@ -25,6 +25,7 @@ table td{
 table td ul li{
 	list-style-type: none;
 }
+/***
 ul>li>p>span{
 	float: right;
-}
+}***/
