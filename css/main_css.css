@@ -1,4 +1,4 @@
-* {
+body {
 	margin: 0em;
 	padding: 0em;
 	background-color: #333333;
@@ -12,10 +12,15 @@ body{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-transform: capitalize;
 }
+.sticky_nav {
+	position:sticky;
+	color: aqua;
+}
 table{
 	width: 95%;
 	max-width: 960px;
 	overflow: hidden;
+	margin-bottom: 200px;
 }
 table td{
 	width:auto;
